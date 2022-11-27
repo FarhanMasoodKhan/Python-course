@@ -131,7 +131,7 @@ print("<< operation: ", ba1 << 1 )   # shift left by 1 bit
 print('# ZERO FILL RIGHT SHIFT:'
 'Shift right by pushing copies of the leftmost bit in from the'
 'left and let the rightmost bite fall off')
-ba1 = 4 # 00100 in binary
-#       = 00010  <- fill with 0 bit to move value towards RS
+ba1 = 4 # 00100  in binary
+#       = 00010  fill with 0 bit to move value towards RS ->
 # [  (0*2)^4 + (0*2)^3 + (0*2)^2 + (1*2)^1 + (0*2)^0 ] = 2
 print(">> operation: ", ba1 >> 1 )
