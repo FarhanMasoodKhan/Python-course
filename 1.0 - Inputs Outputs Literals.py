@@ -105,7 +105,7 @@ print('______________________________________')
 
 
 # B - Float Literals --
-# Types: A. Fractional- Fractional literals , Exponential- Exponential literals
+# Types: A. Fractional- Fractional literals , Exponential- Exponential literals : "257e3  i.e  e3 means  10 raise to power 3 : 257000"
 print('Flaot value is ',78.256)  # 78.256
 
 
@@ -127,7 +127,9 @@ print('______________________________________')
 """
 True- True represents the value 1.
 False-False represents the value 0.
+In Python, 0 is considered to be False. Every other number, whether positive or negative, is True. Even Inf and Nan are considered to be True.
 """
+
 print('______________________________________')
 
 

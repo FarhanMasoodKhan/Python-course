@@ -8,6 +8,8 @@ a = 10
 b = 2
 print(2+10, a-b, 10*2, a/b) # 12 8 20 5.0
 
+# Power  **   :   2 ** 3 = 8  ( 2 raise power 3 )
+# Floor   //     :   15//2 = 7  (  become nearest smallest value )
 
 
 print('______________________________________')
@@ -123,7 +125,7 @@ print('ZERO FILL LEFT SHIFT'
 ':Shift left by pushing zeroes in from the right '
 'and let the leftmost bits fall off')
 ba1 = 4 # 00100 in binary
-#       = 01000  <- fill with 0 bit to move value towards LS
+#          = 01000  <- fill with 0 bit to move value towards LS
 # [  (0*2)^4 + (1*2)^3 + (0*2)^2 + (0*2)^1 + (0*2)^0 ] = 8
 print("<< operation: ", ba1 << 1 )   # shift left by 1 bit
 

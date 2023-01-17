@@ -1,7 +1,7 @@
 # Implicit Type Conversion
 
 # In Implicit type conversion, Python automatically converts
-# one data type to another data type without any user's need.
+# one data type (lower) to another (higher) data type without any user's need.
 
 
 num1 = 2   #int
